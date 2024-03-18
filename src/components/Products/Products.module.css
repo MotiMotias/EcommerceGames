@@ -1,0 +1,38 @@
+.products {
+    display: flex;
+    max-width: 700px;
+    margin:auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.row {
+    display :flex;
+    /* max-width: 700px; */
+    justify-content: center;
+    margin: auto;
+}
+
+.col {
+    display:flex;
+    max-width:300px;
+    justify-content: center;
+}
+
+.card { position: relative;}
+.body { margin-bottom: 60px;}
+.form {
+    position: absolute;
+    bottom: 0;
+    padding : 10px;
+}
+
+.imgDetails {
+    height: 380px;
+    width: 250px;
+}
+
+.productLink {
+    text-decoration:none;
+    color: black;
+}
